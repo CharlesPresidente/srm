@@ -1,4 +1,13 @@
 <section class="left">
-
-  
+    <nav>
+        <ul>
+            <li *ngFor="let menu of menu">
+                <a href="">
+                    <mat-icon class="mat-18">{{menu.icon}}</mat-icon>
+                    <p>{{menu.text}}</p>
+                    <i class="arrow"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </section>
