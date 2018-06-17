@@ -1,0 +1,22 @@
+.alerts {
+  float: left;
+  width: calc(100% - 60% - 24px);
+  height: 450px;
+  margin: 24px 0 0 0;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  p {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    line-height: 80px;
+    text-indent: 24px;
+    font-size: 18px;
+    color: #0c6ddd;
+  }
+  mat-divider {
+    color: #cccccc;
+  }
+}

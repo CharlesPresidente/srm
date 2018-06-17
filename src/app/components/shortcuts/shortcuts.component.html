@@ -1,3 +1,40 @@
-<p>
-  shortcuts works!
-</p>
+<section class="shortcuts">
+  <!-- label -->
+  <p>{{label}}</p>
+
+  <mat-divider></mat-divider>
+
+  <!-- operacional -->
+  <div class="operacional">
+    <!-- label -->
+    <p>{{operacional}}</p>
+
+    <!-- botões -->
+    <nav>
+      <ul>
+        <li *ngFor="let atalho of atalhos">
+          <a href="">
+            {{atalho.text}}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- geral -->
+  <div class="geral">
+    <!-- label -->
+    <p>{{geral}}</p>
+
+    <!-- botões -->
+    <nav>
+      <ul>
+        <li *ngFor="let geral of gerais">
+          <a href="">
+            {{geral.text}}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>

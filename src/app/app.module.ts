@@ -1,8 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { MatIconModule } from "@angular/material/icon";
-
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TopComponent } from './containers/top/top.component';
@@ -16,6 +14,41 @@ import { TitlePageComponent } from './components/title-page/title-page.component
 import { ProductComponent } from './components/product/product.component';
 import { ShortcutsComponent } from './components/shortcuts/shortcuts.component';
 import { AlertsComponent } from './components/alerts/alerts.component';
+
+import {
+  MatAutocompleteModule,
+  MatButtonModule,
+  MatButtonToggleModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatChipsModule,
+  MatDatepickerModule,
+  MatDialogModule,
+  MatExpansionModule,
+  MatGridListModule,
+  MatIconModule,
+  MatInputModule,
+  MatListModule,
+  MatMenuModule,
+  MatNativeDateModule,
+  MatPaginatorModule,
+  MatProgressBarModule,
+  MatProgressSpinnerModule,
+  MatRadioModule,
+  MatRippleModule,
+  MatSelectModule,
+  MatSidenavModule,
+  MatSliderModule,
+  MatSlideToggleModule,
+  MatSnackBarModule,
+  MatSortModule,
+  MatTableModule,
+  MatTabsModule,
+  MatToolbarModule,
+  MatTooltipModule,
+  MatStepperModule,
+  MatDividerModule
+} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -35,7 +68,8 @@ import { AlertsComponent } from './components/alerts/alerts.component';
   ],
   imports: [
     BrowserModule,
-    MatIconModule
+    MatIconModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

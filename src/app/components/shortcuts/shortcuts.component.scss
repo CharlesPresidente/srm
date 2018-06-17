@@ -1,0 +1,67 @@
+.shortcuts {
+  float: left;
+  width: 60%;
+  height: 450px;
+  margin: 24px 24px 0 0;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  p {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    line-height: 80px;
+    text-indent: 24px;
+    font-size: 18px;
+    color: #999999;
+  }
+  mat-divider {
+    color: #cccccc;
+  }
+  .operacional,
+  .geral {
+    float: left;
+    width: 66%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #cccccc;
+    nav {
+      margin: 0;
+      padding: 0;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          cursor: pointer;
+          float: left;
+          line-height: 40px;
+          list-style-type: none;
+          height: 40px;
+          vertical-align: middle;
+          width: calc(100% - 50% - 36px);
+          margin: 0 0 24px 24px;
+          padding: 0;
+          border: 1px solid #0c6ddd;
+          text-align: center;
+          a {
+            text-decoration: none;
+            color: #999999;
+          }
+        }
+      }
+    }
+  }
+  .geral {
+    width: calc(100% - 66% - 50px);
+    border-right: none;
+    nav {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

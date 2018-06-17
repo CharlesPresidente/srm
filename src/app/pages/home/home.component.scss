@@ -7,5 +7,9 @@
     margin: 80px 0 24px 280px;
     background-color: inherit;
     padding: 20px;
+    .line {
+      display: inline-block;
+      width: 100%;
+    }
   }
 }
