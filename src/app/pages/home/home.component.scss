@@ -2,9 +2,10 @@
   position: relative;
   font-family: 'Roboto', sans-serif;
   .content {
-    width: calc(100% - 281px);
+    // width: calc(100% - 280px);
     height: auto;
     margin: 80px 0 24px 280px;
     background-color: inherit;
+    padding: 20px;
   }
 }

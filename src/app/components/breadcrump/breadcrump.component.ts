@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./breadcrump.component.scss']
 })
 export class BreadcrumpComponent implements OnInit {
+  public breadcrumb = {parents: "Página Inicial", child: "Painel de Gestão"}
 
   constructor() { }
 

@@ -1,3 +1,9 @@
-<p>
-  breadcrump works!
-</p>
+<ul class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a routerLink="">
+      <p>{{ breadcrumb.parents }}</p>
+      <mat-icon class="mat-18">chevron_right</mat-icon>
+      <p>{{ breadcrumb.child }}</p>
+    </a>
+  </li>
+</ul>
