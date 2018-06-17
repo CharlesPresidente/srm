@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./group-economic.component.scss']
 })
 export class GroupEconomicComponent implements OnInit {
+  public grupo = "Grupo Econômico: ";
+  public visao = "Visão Agregada 1";
 
   constructor() { }
 

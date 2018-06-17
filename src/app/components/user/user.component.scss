@@ -1,0 +1,40 @@
+.user {
+  float: right;
+  background-color: #0e1532;
+  height: 60px;
+  margin: 10px 24px auto 0;
+  p,
+  mat-icon {
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    width: 60px;
+    height: auto;
+    padding-top: 16px;
+    color: white;
+  }
+  p {
+    width: auto;
+    padding: 5px 8px 0;
+  }
+  mat-icon:nth-of-type(2) {
+    color: #0c6ddd;
+  }
+  mat-icon:nth-of-type(3) {
+    height: 44px;
+    background-color: #0c6ddd;
+  }
+  span {
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    min-width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+  }
+}

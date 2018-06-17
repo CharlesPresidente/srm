@@ -1,0 +1,10 @@
+.home {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  .content {
+    width: calc(100% - 281px);
+    height: auto;
+    margin: 80px 0 24px 280px;
+    background-color: inherit;
+  }
+}

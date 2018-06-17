@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { MatIconModule } from "@angular/material/icon";
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TopComponent } from './containers/top/top.component';
@@ -32,7 +34,8 @@ import { AlertsComponent } from './components/alerts/alerts.component';
     AlertsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
