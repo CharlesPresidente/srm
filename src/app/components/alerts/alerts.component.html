@@ -1,6 +1,39 @@
 <section class="alerts">
-  <!-- label -->
-  <p>{{label}}</p>
+  <div>
+    <!-- label -->
+    <p>{{label}}</p>
+
+    <!-- time -->
+    <p>{{time}}</p>
+  </div>
 
   <mat-divider></mat-divider>
+
+  <!-- itens 23 -->
+  <div class="item">
+    <!-- label -->
+    <p>{{item23}}</p>
+  </div>
+
+  <!-- itens 13 -->
+  <div class="item">
+    <!-- label -->
+    <p>{{item13}}</p>
+
+    <!-- select -->
+    <select class="form-control" id="sel1" name="sellist1">
+      <option class="form-item" *ngFor="let action of actions">{{action.text}}</option>
+    </select>
+  </div>
+
+  <!-- itens 7 -->
+  <div class="item">
+    <!-- label -->
+    <p>{{item7}}</p>
+
+    <!-- select -->
+    <select class="form-control" id="sel1" name="sellist1">
+      <option *ngFor="let action of actions">{{action.text}}</option>
+    </select>
+  </div>
 </section>

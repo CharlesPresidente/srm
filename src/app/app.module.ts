@@ -15,6 +15,7 @@ import { ProductComponent } from './components/product/product.component';
 import { ShortcutsComponent } from './components/shortcuts/shortcuts.component';
 import { AlertsComponent } from './components/alerts/alerts.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatAutocompleteModule,
   MatButtonModule,
@@ -26,6 +27,7 @@ import {
   MatDialogModule,
   MatExpansionModule,
   MatGridListModule,
+  MatOptionModule,
   MatIconModule,
   MatInputModule,
   MatListModule,
@@ -47,7 +49,8 @@ import {
   MatToolbarModule,
   MatTooltipModule,
   MatStepperModule,
-  MatDividerModule
+  MatDividerModule,
+  MatFormFieldModule
 } from '@angular/material';
 
 @NgModule({
@@ -68,8 +71,13 @@ import {
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    MatIconModule,
+    MatOptionModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

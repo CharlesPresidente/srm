@@ -8,6 +8,8 @@
   -moz-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow: 3px 3px 5px 6px #ccc;
   p {
+    float: left;
+    width: auto;
     height: 80px;
     margin: 0;
     padding: 0;
@@ -16,7 +18,55 @@
     font-size: 18px;
     color: #0c6ddd;
   }
+  p:nth-of-type(2) {
+    float: right;
+    color: #999999;
+    font-size: 14px;
+    margin-right: 24px;
+  }
   mat-divider {
+    float: left;
+    width: 100%;
     color: #cccccc;
+  }
+  .item {
+    display: inline-block;
+    height: 60px;
+    width: calc(100% - 48px);
+    margin: 0 24px;
+    vertical-align: middle;
+    border-bottom: 1px solid #cccccc;
+    p {
+      line-height: 60px;
+      font-size: 16px;
+      color: #999999;
+    }
+    .form-control {
+      float: right;
+      display: inline-block;
+      border: 1px solid #0c6ddd;
+      height: 40px;
+      margin: 10px 0;
+      padding: 0.5em 3.5em 0.5em 1em;
+      color: #999999;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-image: linear-gradient(45deg, transparent 50%, #0c6ddd 50%),
+        linear-gradient(135deg, #0c6ddd 50%, transparent 50%),
+        linear-gradient(to right, #0c6ddd, #0c6ddd);
+      background-position: calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+      background-size: 5px 5px, 5px 5px, 1px 1.5em;
+      background-repeat: no-repeat;
+      .form-item {
+        height: 40px;
+        background-color: white;
+        border: 1px solid #cccccc;
+      }
+    }
   }
 }
